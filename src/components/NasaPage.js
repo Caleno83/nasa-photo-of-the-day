@@ -22,6 +22,12 @@ const NasaPage = () => {
 
     return (
             <div className="container">
+                
+                <NasaImg img={data.url} copyright={data.copyright}/>
+                <NasaDate date={data.date} />
+                <NasaTitle title={data.title} />
+                <NasaContent content={data.explanation} />
+                
             </div>
     );
 }
