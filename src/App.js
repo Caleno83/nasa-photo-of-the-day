@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <h1>NASA PHOTO OF THE DAY</h1>
       <NasaPage />
+      
     </div>
   );
 };
